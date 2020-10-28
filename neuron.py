@@ -5,5 +5,5 @@ class neuron:
   def val():
     return self.val
   def weight():
-    self.weight = np.random.randn()
+    self.weight = np.random.randn(len(self.val))
     return self.weight
